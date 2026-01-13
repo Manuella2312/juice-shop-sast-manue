@@ -1,0 +1,12 @@
+# sonar-project.properties 
+sonar.projectKey=juice-shop-sast 
+sonar.projectName=OWASP Juice Shop - SAST Analysis 
+sonar.host.url=http://localhost:9000 
+sonar.token= sqp_9fde2af21c7c9c91118d2c20286d0f366eec706d
+# Sources à analyser 
+sonar.sources=. 
+sonar.exclusions=**/node_modules/**,**/coverage/**,**/test/** 
+# Langage principal 
+sonar.language=js 
+# Coverage (optionnel, si tests présents) 
+sonar.javascript.lcov.reportPaths=coverage/lcov.info
